@@ -168,6 +168,29 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.tiptop {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.tiptop .logo {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+.tiptop .navbar {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.tiptop .navbar a {
+  text-decoration: none;
+  color: #212529;
+  font-size: 1.6rem;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -224,4 +247,15 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.funbusimg {
+  border-top: 2px dashed grey;
+  width: 60%;
+  margin: 0 auto;
+}
+.headertalk {
+  border-bottom: 2px dashed grey;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 15px;
 }
