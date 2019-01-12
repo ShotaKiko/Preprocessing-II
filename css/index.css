@@ -1,16 +1,13 @@
 @media (max-width: 500px) {
   .mobilifier .tiptop {
-    background-color: lightgreen;
     flex-direction: column;
     width: 100%;
   }
   .mobilifier .tiptop .logo {
-    border: 2px solid brown;
     width: 100%;
     justify-content: center;
   }
   .mobilifier .tiptop .navbar {
-    border: 2px solid purple;
     width: 100%;
   }
   .mobilifier .funbusimg {
@@ -26,8 +23,31 @@
     width: 100%;
   }
   .mobilifier .home .content-section .text-content {
-    border: 1px solid burlywood;
     width: 95%;
+  }
+  .mobilifier .home .content-section .img-content {
+    width: 95%;
+    padding: 0 0;
+  }
+  .mobilifier .home .content-section .img-content img {
+    width: 100%;
+  }
+  .mobilifier .home .content-section .twoimg {
+    order: 1;
+  }
+  .mobilifier .home .content-destination {
+    width: 95%;
+  }
+  .mobilifier .home .content-pick {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .mobilifier .home .content-pick .destination {
+    width: 80%;
+  }
+  .mobilifier .home .content-pick .btn {
+    width: 100%;
   }
 }
 .btn {
@@ -211,7 +231,6 @@ img {
   margin: 0 auto;
 }
 .tiptop {
-  border: 2px solid red;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -292,29 +311,26 @@ img {
   margin-bottom: 30px;
 }
 .funbusimg {
-  border-top: 2px dashed grey;
+  border-top: 2px dashed #C0C0C0;
   width: 60%;
   margin: 0 auto;
 }
 .headertalk {
-  border-bottom: 2px dashed grey;
+  border-bottom: 2px dashed #C0C0C0;
   width: 60%;
   margin: 0 auto;
   margin-top: 15px;
 }
 @media (max-width: 500px) and (max-width: 500px) {
   .tiptop {
-    background-color: lightgreen;
     flex-direction: column;
     width: 100%;
   }
   .tiptop .logo {
-    border: 2px solid brown;
     width: 100%;
     justify-content: center;
   }
   .tiptop .navbar {
-    border: 2px solid purple;
     width: 100%;
   }
   .funbusimg {
@@ -330,7 +346,30 @@ img {
     width: 100%;
   }
   .home .content-section .text-content {
-    border: 1px solid burlywood;
     width: 95%;
+  }
+  .home .content-section .img-content {
+    width: 95%;
+    padding: 0 0;
+  }
+  .home .content-section .img-content img {
+    width: 100%;
+  }
+  .home .content-section .twoimg {
+    order: 1;
+  }
+  .home .content-destination {
+    width: 95%;
+  }
+  .home .content-pick {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .home .content-pick .destination {
+    width: 80%;
+  }
+  .home .content-pick .btn {
+    width: 100%;
   }
 }
