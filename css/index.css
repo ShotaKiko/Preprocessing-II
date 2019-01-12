@@ -1,3 +1,35 @@
+@media (max-width: 500px) {
+  .mobilifier .tiptop {
+    background-color: lightgreen;
+    flex-direction: column;
+    width: 100%;
+  }
+  .mobilifier .tiptop .logo {
+    border: 2px solid brown;
+    width: 100%;
+    justify-content: center;
+  }
+  .mobilifier .tiptop .navbar {
+    border: 2px solid purple;
+    width: 100%;
+  }
+  .mobilifier .funbusimg {
+    width: 95%;
+  }
+  .mobilifier .headertalk {
+    width: 95%;
+  }
+  .mobilifier .home .content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .mobilifier .home .content-section .text-content {
+    border: 1px solid burlywood;
+    width: 95%;
+  }
+}
 .btn {
   background-color: #17A2B8;
   color: white;
@@ -179,6 +211,7 @@ img {
   margin: 0 auto;
 }
 .tiptop {
+  border: 2px solid red;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -268,4 +301,36 @@ img {
   width: 60%;
   margin: 0 auto;
   margin-top: 15px;
+}
+@media (max-width: 500px) and (max-width: 500px) {
+  .tiptop {
+    background-color: lightgreen;
+    flex-direction: column;
+    width: 100%;
+  }
+  .tiptop .logo {
+    border: 2px solid brown;
+    width: 100%;
+    justify-content: center;
+  }
+  .tiptop .navbar {
+    border: 2px solid purple;
+    width: 100%;
+  }
+  .funbusimg {
+    width: 95%;
+  }
+  .headertalk {
+    width: 95%;
+  }
+  .home .content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .home .content-section .text-content {
+    border: 1px solid burlywood;
+    width: 95%;
+  }
 }

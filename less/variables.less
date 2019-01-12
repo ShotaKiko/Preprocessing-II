@@ -12,3 +12,60 @@
 @shark: #212529;
 @eastern-blue: #17A2B8;
 @sandy-beach: #FFEBCD;
+
+// @min768: (min-width: 768px);
+// .element {
+//   @media @min768 {
+//     font-size: 1.2rem;
+//   }
+// }
+
+@mobile: (max-width: 500px);
+
+
+
+.mobilifier{
+    @media @mobile{
+    
+        .tiptop{
+            background-color: lightgreen;
+            flex-direction: column;
+            width: 100%;
+
+            .logo{
+                border: 2px solid brown;
+                width: 100%;
+                justify-content: center;
+            }
+
+            .navbar{
+                border: 2px solid purple;
+                width: 100%;
+            }
+        }
+
+        .funbusimg{
+            width: 95%;
+        }
+
+        .headertalk{
+            width: 95%;
+        }
+
+        .home{
+            .content-section{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+
+                .text-content{
+                    border: 1px solid burlywood;
+                    width: 95%;
+                }
+
+            }
+        }
+
+    }
+}
